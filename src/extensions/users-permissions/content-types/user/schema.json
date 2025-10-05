@@ -66,6 +66,10 @@
       "inversedBy": "users",
       "configurable": false
     },
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
     "courses": {
       "type": "relation",
       "relation": "manyToMany",
